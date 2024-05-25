@@ -5,7 +5,7 @@ Feature: Login, sending an e-mail message and logout
     Scenario: User can login to e-mail account
     Given user is on a page with the login form
     And enters login data "timotejpap"
-    And enters login data "Xw2Veo@pR^CBKq"
+    And enters login data "Xw2Veo@pR^CBKq"  //this is invalid password
     When user clicks login button
     Then user is logged in
 
